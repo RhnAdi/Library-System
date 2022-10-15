@@ -8,12 +8,12 @@ Fitur :
 
 | Model | Description | Define |
 | ----- | ----------- | ------ |
-| Book | Mendefiniskan detail buku seperti id, title, description, etc | [book.c] |
-| Library | Berisikan array yang berisi book dan jumlah buku | [library.c] |
-| Mahasiswa | Mendefinisikan detail mahasiswa ketila meminjam buku | [mahasiswa.c] |
-| Borrowing | Medefinisikan sebuah peminjaman yang berisi data book dan mahasiswa | [borrowing.c] |
-| BorrowingList | Berisikan array yang berisi peminjaman dan jumlah peminjaman | [borrowing_list.c] |
-| Time | Mendefinisikan data waktu day, month, year | [time.c]
+| Book | Mendefiniskan detail buku seperti id, title, description, etc | [book.c](https://github.com/RhnAdi/Library-System/blob/main/models/book/book.c) |
+| Library | Berisikan array yang berisi book dan jumlah buku | [library.c](https://github.com/RhnAdi/Library-System/blob/main/models/library/library.c) |
+| Mahasiswa | Mendefinisikan detail mahasiswa ketila meminjam buku | [mahasiswa.c](https://github.com/RhnAdi/Library-System/blob/main/models/mahasiswa/mahasiswa.c) |
+| Borrowing | Medefinisikan sebuah peminjaman yang berisi data book dan mahasiswa | [borrowing.c](https://github.com/RhnAdi/Library-System/blob/main/models/borrowing/borrowing.c) |
+| BorrowingList | Berisikan array yang berisi peminjaman dan jumlah peminjaman | [borrowing_list.c](https://github.com/RhnAdi/Library-System/blob/main/models/borrowing_list/borrowing_list.c) |
+| Time | Mendefinisikan data waktu day, month, year | [time.c](https://github.com/RhnAdi/Library-System/blob/main/models/time/time.c)
 
 ### Usage
 
