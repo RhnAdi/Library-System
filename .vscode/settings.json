@@ -2,6 +2,9 @@
     "files.associations": {
         "library.h": "c",
         "info_book.h": "c",
-        "book.h": "c"
+        "book.h": "c",
+        "borrowing_handler.h": "c",
+        "add.h": "c",
+        "time.h": "c"
     }
 }

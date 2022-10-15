@@ -3,7 +3,7 @@
 #include "../../models/time/time.h"
 #include "../../error/error.h"
 #include "../../setting.h"
-#include "borrowing_list.h"
+#include "delete.h"
 #include <string.h>
 #include <time.h>
 
@@ -19,7 +19,7 @@ struct Borrowing ReturnBorrowing(struct BorrowingList *borrowing_list, int id, c
             borrowing_list->list[id-1].late_charge = number_of_days_late * LATE_CHARGE;
         }
 
-        DeleteBorrowing(&borrowing_list, id, &error);
+        DeleteBorrowing(borrowing_list, id, error);
 
         return borrowing_list->list[id-1];
     }

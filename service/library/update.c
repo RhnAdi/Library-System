@@ -1,5 +1,6 @@
 #include "../../models/book/book.h"
 #include "../../models/library/library.h"
+#include "../../error/error.h"
 
 struct Book UpdateBook(struct Library *lib, struct Book book, char *error) {
     for (int i = 0; i <= lib->count; i++) {
@@ -12,5 +13,6 @@ struct Book UpdateBook(struct Library *lib, struct Book book, char *error) {
             lib->books[i].Year = book.Year;
             return lib->books[i];
         }
+        strcpy(error, BOOK_NOT_FOUND);
     }
 }

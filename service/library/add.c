@@ -4,6 +4,7 @@
 #include <string.h>
 
 struct Book AddBook(struct Library *library, struct Book book, char *error){
+    book.Borrowed = 0;
     for (int i = 0; i < library->count; i++) {
         int compare = strcmp(book.ID, library->books[i].ID);
         if (compare == 0) {

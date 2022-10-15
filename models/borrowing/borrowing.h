@@ -5,7 +5,7 @@
 struct Borrowing;
 
 struct Borrowing initBorrowing(
-    struct Book book,
+    struct Book *book,
     struct Mahasiswa mahasiswa,
     struct Time deadline
 );

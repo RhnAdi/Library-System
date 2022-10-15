@@ -3,7 +3,7 @@
 
 struct Book {
     char ID[10];
-    char Title[20];
+    char Title[32];
     char Description[200];
     char Publisher[20];
     char Author[20];
